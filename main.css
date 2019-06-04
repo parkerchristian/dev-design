@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  display: block;
+}
+
+center > * {
+  background: rgb(184, 0, 0);
+  color: white;
+  margin: 0 0 .5em 0;
+}
+
+center h1 {
+  rotate: 360deg;
+}
+
+section {
+  margin: 0 2em;
+}
+
+aside {
+  position: absolute;
+  width: 10vw;
+  left: 80%;
+  right: 10%;
+  top: 30%;
+  border: solid;
+  padding: .5em;
+}
+
+footer {
+  background: black;
+  color: white;
+  font-size: 2em;
+  margin-top: 1em;
+  padding: .5em;
+}
+
+details p {
+  margin: 1em;
+  padding: .5em;
+  width: 15em;
+  background: rgb(184, 0, 0);
+}
