@@ -1,0 +1,39 @@
+div {
+  width: 50%;
+  border: solid;
+  border-radius: 10%;
+  // animation: spin 16s reverse infinite linear;
+}
+section {
+  width: 95%;
+  border: solid;
+  border-radius: 10%;
+  // animation: spin 6s infinite linear;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 10%;
+  // animation: spin 10s infinite linear;
+}
+
+td {
+  width: 7em;
+  height: 7em;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.odd td:nth-of-type(2n) {
+  background: black;
+  animation: spin reverse 3s infinite ease-in-out;
+}
+
+.even td:nth-of-type(2n+1) {
+  background: black;
+  animation: spin 3s infinite ease-in-out;
+}
